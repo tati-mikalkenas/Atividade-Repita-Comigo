@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Atividade Repita Comigo </title>
+
+    <script>
+    
+    //: Exercício 1: Escreva um algoritmo para ler 2 valores informados pelo usuário e se o segundo valor informado for igual ou menor que ZERO, deve ser lido um novo valor. Ou seja, para o segundo valor não pode ser aceito o valor zero, nem um valor negativo.  O seu programa deve imprimir o resultado da divisão do primeiro valor lido pelo segundo valor.
+    
+    
+    var a = parseInt(prompt("Primeiro Número: "));
+        var b = parseInt(prompt("Segundo Número: "));
+
+        while (b <= 0) {
+            b = parseInt(prompt("Segundo número novamente: "));
+        } 
+
+        var resultado = a/b;
+        alert("A divisão dos números são " + resultado);
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
